@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3809d03f44d857d06bc157c45083bbd3",
+    "content-hash": "eefd56a831930b5bb33c1af5ed0a1ca3",
     "packages": [
         {
             "name": "brick/math",
@@ -1044,6 +1044,63 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "kinde-oss/kinde-auth-php",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kinde-oss/kinde-php-sdk.git",
+                "reference": "c484ce793022adcba19dbb84bfac32fabb25094b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kinde-oss/kinde-php-sdk/zipball/c484ce793022adcba19dbb84bfac32fabb25094b",
+                "reference": "c484ce793022adcba19dbb84bfac32fabb25094b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^7.3",
+                "guzzlehttp/psr7": "^1.7 || ^2.0",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.5",
+                "phpunit/phpunit": "^8.0 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kinde\\KindeSDK\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kinde Engineering",
+                    "homepage": "https://kinde.com"
+                }
+            ],
+            "description": "Kinde PHP SDK for authentication",
+            "homepage": "https://kinde.com",
+            "keywords": [
+                "Authentication",
+                "auth",
+                "kinde",
+                "php",
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/kinde-oss/kinde-php-sdk/issues",
+                "source": "https://github.com/kinde-oss/kinde-php-sdk/tree/v1.2.1"
+            },
+            "time": "2023-08-02T04:16:15+00:00"
         },
         {
             "name": "laravel/framework",
