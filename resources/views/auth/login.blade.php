@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </form>
-                    <a href="{{ url('/login/facebook') }}" class="btn btn-secondary">Login with Facebook</a>
+                    <a href="{{ secure_url('/login/facebook') }}" class="btn btn-secondary">Login with Facebook</a>
                 </div>
             </div>
         </div>
