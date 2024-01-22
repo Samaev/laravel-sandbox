@@ -24,7 +24,3 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/login/facebook', [App\Http\Controllers\Auth\LoginController::class,'redirectToFacebook'])->name('login.facebook');
 Route::get('/login/facebook/callback', 'Auth\LoginController@handleFacebookCallback');
-
-Route::get('/login/kinde', [KindleController::class,'login'])->name('login.facebook');
-
-
